@@ -1,0 +1,20 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+  {% stylesheets
+    '@SFMFormsBundle/Resources/public/css/reset.css'
+    '@SFMFormsBundle/Resources/public/css/common.css'
+    '@SFMFormsBundle/Resources/public/css/styles.css'
+   %}
+    <link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
+  {% endstylesheets %}
+{% endblock %}
+
+{% block body %}
+  <article>
+    {% block contents %}{% endblock %}
+  </article>
+
+  <footer>
+  </footer>
+{% endblock %}

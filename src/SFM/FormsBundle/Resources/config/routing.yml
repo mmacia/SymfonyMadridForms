@@ -1,0 +1,4 @@
+sfm_forms:
+    resource: "@SFMFormsBundle/Controller/MainController.php"
+    type: annotation
+    prefix: /

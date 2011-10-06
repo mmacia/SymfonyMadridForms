@@ -1,0 +1,47 @@
+{% extends "::layout.html.twig" %}
+
+{% block contents %}
+  <fieldset>
+    <legend>{% block legend %}Nuevo usuario{% endblock %}</legend>
+
+    <form method="POST" action="{% block form_action %}{{ path('forms_create') }}{% endblock %}">
+      <div class="field">
+        {{ form_label(form.name) }}
+        {{ form_errors(form.name) }}
+        {{ form_widget(form.name) }}
+      </div>
+
+      <div class="field">
+        {{ form_label(form.surname) }}
+        {{ form_errors(form.surname) }}
+        {{ form_widget(form.surname) }}
+      </div>
+
+      <div class="field">
+        {{ form_label(form.password) }}
+        {{ form_errors(form.password) }}
+        {{ form_widget(form.password) }}
+      </div>
+
+      <div class="field">
+        {{ form_label(form.password2) }}
+        {{ form_errors(form.password2) }}
+        {{ form_widget(form.password2) }}
+      </div>
+
+      <img src="{{ asset('bundles/sfmforms/images/captcha.png') }}"/>
+
+      <div class="field">
+        {{ form_label(form.captcha) }}
+        {{ form_errors(form.captcha) }}
+        {{ form_widget(form.captcha) }}
+      </div>
+
+      {{ form_rest(form) }}
+
+      <div class="buttons">
+        <input type="submit" class="button button-submit" value="Guardar"/>
+      </div>
+    </form>
+  </fieldset>
+{% endblock %}

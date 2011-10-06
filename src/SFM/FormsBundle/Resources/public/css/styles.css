@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input {
+  font-size: 9pt;
+}
+
+fieldset div.field label {
+  width: 160px;
+  display: inline-block;
+  height: 25px;
+}
+fieldset.client div.field label {
+  width: 70px;
+}
+fieldset div.buttons {
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+fieldset input[type=text] {
+  width: 280px;
+  padding-left: 5px;
+  height: 18px;
+  font-size: 12px;
+}
+
+legend {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.buttons button, .buttons input[type=submit], .buttons input[type=button] {
+  padding: 5px 9px 5px 9px;
+}
+
+
+header {
+  border-bottom: 1px solid #bbb;
+  background: whiteSmoke;
+  margin-bottom: 12px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+article {
+  width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 10pt;
+}
+
+div.section {
+  margin-bottom: 25px;
+}
+
+div.section h2 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 5px;
+}

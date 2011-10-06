@@ -1,0 +1,92 @@
+[symfony]
+    git=http://github.com/symfony/symfony.git
+    version=v2.0.0
+
+[twig]
+    git=http://github.com/fabpot/Twig.git
+    version=v1.1.1
+
+[monolog]
+    git=http://github.com/Seldaek/monolog.git
+    version=1.0.0
+
+[doctrine-common]
+    git=http://github.com/doctrine/common.git
+    version=2.1.0
+
+[doctrine-dbal]
+    git=http://github.com/doctrine/dbal.git
+    version=2.1.0
+
+[doctrine]
+    git=http://github.com/doctrine/doctrine2.git
+    version=2.1.0
+
+[swiftmailer]
+    git=http://github.com/swiftmailer/swiftmailer.git
+    version=v4.1.0
+
+[assetic]
+    git=http://github.com/kriswallsmith/assetic.git
+    version=v1.0.1
+
+[twig-extensions]
+    git=http://github.com/fabpot/Twig-extensions.git
+
+[metadata]
+    git=http://github.com/schmittjoh/metadata.git
+    version=1.0.0
+
+[SensioFrameworkExtraBundle]
+    git=http://github.com/sensio/SensioFrameworkExtraBundle.git
+    target=/bundles/Sensio/Bundle/FrameworkExtraBundle
+
+[JMSSecurityExtraBundle]
+    git=http://github.com/schmittjoh/JMSSecurityExtraBundle.git
+    target=/bundles/JMS/SecurityExtraBundle
+
+[SensioDistributionBundle]
+    git=http://github.com/sensio/SensioDistributionBundle.git
+    target=/bundles/Sensio/Bundle/DistributionBundle
+
+[SensioGeneratorBundle]
+    git=http://github.com/sensio/SensioGeneratorBundle.git
+    target=/bundles/Sensio/Bundle/GeneratorBundle
+
+[AsseticBundle]
+    git=http://github.com/symfony/AsseticBundle.git
+    target=/bundles/Symfony/Bundle/AsseticBundle
+    version=v1.0.0RC2
+
+[UserBundle]
+    git=http://github.com/FriendsOfSymfony/FOSUserBundle.git
+    target=/bundles/FOS/UserBundle
+    version=1.0.0
+
+[doctrine-fixtures]
+  git=http://github.com/doctrine/data-fixtures.git
+  version=4a8464ef83093de2378cef2770e13da7e4858ffc
+
+[DoctrineFixturesBundle]
+  git=http://github.com/symfony/DoctrineFixturesBundle.git
+  target=/bundles/Symfony/Bundle/DoctrineFixturesBundle
+  version=d0d6a6e4fbbea44ab1ab7d4a107b7818d9562010
+
+[doctrine-extensions]
+  git=http://github.com/beberlei/DoctrineExtensions.git
+  version=bdbcb5b83b1ca29e741943f341d022a599efd7fd
+
+[IdeupSimplePaginatorBundle]
+  git=http://github.com/javiacei/IdeupSimplePaginatorBundle.git
+  target=/bundles/Ideup/SimplePaginatorBundle
+  version=eb0d89af3d5d6b219df0fc5f70c26210169ba3ac
+
+[IdeupSimplePaginatorBundle]
+  git=http://github.com/javiacei/IdeupSimplePaginatorBundle.git
+  target=/bundles/Ideup/SimplePaginatorBundle
+  version=eb0d89af3d5d6b219df0fc5f70c26210169ba3ac
+
+[DataFixturesGenerators]
+  git=http://github.com/mmacia/DataFixturesGenerators.git
+  version=96369784ae0c8a8acd4d96b59b6712cdd66d3281
+
